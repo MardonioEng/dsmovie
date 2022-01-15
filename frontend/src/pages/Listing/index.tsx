@@ -29,6 +29,7 @@ function Listing() {
     });
   }, [pageNumber]);
   
+  /*
   const movie = {
     id: 1,
     image:
@@ -37,6 +38,7 @@ function Listing() {
     count: 2,
     score: 4.5,
   };
+  */
 
   const handlePageChange = (newPageNumber : number) => {
     setPageNumber(newPageNumber);
